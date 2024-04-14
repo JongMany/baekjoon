@@ -1,6 +1,6 @@
 const fs = require("fs");
 // const input = fs.readFileSync("/dev/stdin").toString().trim().split(" ").map(Number);
-const input = [4, 2]
+const input = [3, 3]
 function solution(){
   const [N, M] = input;
   const array = Array(M).fill(0);
